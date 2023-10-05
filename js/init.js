@@ -271,20 +271,20 @@ function beker_tm_trigger_menu() {
 // --------------   TOPBAR BACKGROUND    ---------------
 // -----------------------------------------------------
 
-// function beker_tm_nav_bg() {
-//   "use strict";
+function beker_tm_nav_bg() {
+  "use strict";
 
-//   jQuery(window).on("scroll", function () {
-//     var topbar = jQuery(".beker_tm_topbar");
-//     var WinOffset = jQuery(window).scrollTop();
+  jQuery(window).on("scroll", function () {
+    var topbar = jQuery(".beker_tm_topbar");
+    var WinOffset = jQuery(window).scrollTop();
 
-//     if (WinOffset >= 100) {
-//       topbar.addClass("animate");
-//     } else {
-//       topbar.removeClass("animate");
-//     }
-//   });
-// }
+    if (WinOffset >= 100) {
+      topbar.addClass("animate");
+    } else {
+      topbar.removeClass("animate");
+    }
+  });
+}
 
 // -------------------------------------------------
 // -------------------  ANCHOR ---------------------

@@ -18,6 +18,8 @@
 	<link rel="stylesheet" type="text/css" href="css/plugins.css" />
 	<link rel="stylesheet" type="text/css" href="css/dark.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<!-- favicon -->
+	<link rel="shortcut icon" href="img/logo/logo.png" type="image/x-icon">
 	<!-- /STYLES -->
 
 </head>
@@ -71,8 +73,8 @@
 
 		<!-- COPYRIGHT -->
 		<div class="beker_tm_copyright">
-			<p class="wow fadeIn" data-wow-duration="1s">&copy; 2021 Beker <a href="#">Marketify.</a> All Rights
-				Reserved. | Crafted with ❤️ by <a href="https://faykarr.vercel.app">faykarr</a></p>
+			<p class="wow fadeIn" data-wow-duration="1s">&copy; 2023 Crafted with ❤️ by <a
+					href="https://faykarr.vercel.app">faykarr</a></p>
 		</div>
 		<!-- /COPYRIGHT -->
 

@@ -1,5 +1,5 @@
 <!-- TOPBAR -->
-<div class="beker_tm_topbar animate">
+<div class="beker_tm_topbar">
     <div class="in">
         <div class="container">
             <div class="topbar_inner">
@@ -12,8 +12,6 @@
                                 href="index.php?hal=home">Home</a></li>
                         <li <?= (isset($_REQUEST['hal']) && $_REQUEST['hal'] == 'about') ? 'class="current"' : '' ?>><a
                                 href="index.php?hal=about">About</a></li>
-                        <li <?= (isset($_REQUEST['hal']) && $_REQUEST['hal'] == 'service') ? 'class="current"' : '' ?>><a
-                                href="index.php?hal=service">Service</a></li>
                         <li <?= (isset($_REQUEST['hal']) && $_REQUEST['hal'] == 'portfolio') ? 'class="current"' : '' ?>><a
                                 href="index.php?hal=portfolio">Portfolio</a></li>
                         <li <?= (isset($_REQUEST['hal']) && $_REQUEST['hal'] == 'contact') ? 'class="current"' : '' ?>><a
@@ -52,8 +50,6 @@
                             href="index.php?hal=home">Home</a></li>
                     <li <?= (isset($_REQUEST['hal']) && $_REQUEST['hal'] == 'about') ? 'class="current"' : '' ?>><a
                             href="index.php?hal=about">About</a></li>
-                    <li <?= (isset($_REQUEST['hal']) && $_REQUEST['hal'] == 'service') ? 'class="current"' : '' ?>><a
-                            href="index.php?hal=service">Service</a></li>
                     <li <?= (isset($_REQUEST['hal']) && $_REQUEST['hal'] == 'portfolio') ? 'class="current"' : '' ?>><a
                             href="index.php?hal=portfolio">Portfolio</a></li>
                     <li <?= (isset($_REQUEST['hal']) && $_REQUEST['hal'] == 'contact') ? 'class="current"' : '' ?>><a

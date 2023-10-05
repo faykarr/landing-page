@@ -653,6 +653,10 @@ body.opened .beker_tm_hero .beker_tm_button {
   background-color: #1473e6;
 }
 
+.text-white {
+  color: #fff !important;
+}
+
 /*---------------------------------------------------*/
 /*	05) BEKER ABOUT
 /*---------------------------------------------------*/
